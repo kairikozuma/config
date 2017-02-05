@@ -1,0 +1,17 @@
+[user]
+  name = Kairi Kozuma
+  email = kairikozuma@gmail.com
+
+[alias]
+  b = branch
+  ba = branch -a
+  com = commit
+  ch = checkout
+  d = diff
+  dc = diff --cached
+  g = !git gui &
+  lg = log --graph
+  lgo = log --graph --pretty=oneline --abbrev-commit
+  k = !gitk &
+  ka = !gitk --all &
+  st = status
