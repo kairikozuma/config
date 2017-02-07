@@ -47,6 +47,10 @@ ff () { /usr/bin/find . -name "$@" ; }      # ff:       Find file under the curr
 ffs () { /usr/bin/find . -name "$@"'*' ; }  # ffs:      Find file whose name starts with a given string
 ffe () { /usr/bin/find . -name '*'"$@" ; }  # ffe:      Find file whose name ends with a given string
 
+#   ---------------------------
+#   5. MISCELLANEOUS 
+#   ---------------------------
+
 # Include other files
 # Machine specific aliases
 if [ -f ~/.bash_aliases ]; then
@@ -57,15 +61,3 @@ fi
 if [ -f ~/.gitrc ]; then
     . ~/.gitrc
 fi
-  
-#   ---------------------------
-#   5. MISCELLANEOUS 
-#   ---------------------------
-
-# Run at startup
-eval "$(rbenv init -)"
-
-# MacPorts Installer addition
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-# Finished adapting your PATH environment variable for use with MacPorts.
-
