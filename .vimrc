@@ -87,7 +87,7 @@ nmap <leader>w :w!<cr>
 "Exit insert mode with 'jk'
 inoremap jk <esc>
 
-"Comand to turn on search: ,<space>
+"Comand to turn off highlight search: ,<space>
 nnoremap <leader><space> :nohlsearch<CR>
 
 
