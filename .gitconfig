@@ -11,7 +11,7 @@
   dc = diff --cached
   g = !git gui &
   lg = log --graph
-  lgo = log --graph --pretty=oneline --abbrev-commit
+  lgo = log --graph --pretty=oneline --abbrev-commit --all --decorate
   k = !gitk &
   ka = !gitk --all &
   st = status
